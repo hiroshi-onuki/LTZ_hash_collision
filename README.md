@@ -21,10 +21,14 @@ where `<dir>` is the output directory.
 Note that it takes several days to generate all files.
 So, we recommend you to use `--release` option to speed up the computation.
 
-After generating the file, you can check the conjecture by running the shell script
+We already generated files for all primes in $[7, 97]$.
+These are available in the directory [fp2_invariants](./fp2_invariants).
+
+After generating the files in the above directory,
+you can check the conjecture by running the shell script
 [count_Fp2types.sh](./count_Fp2types.sh).
 This script requires Magma.
-It takes a few days to check all files.
+It takes several days to check all files.
 
 ## Collision Search
 To search for collisions, run the following command:
