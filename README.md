@@ -22,7 +22,7 @@ Note that it takes several days to generate all files.
 So, we recommend you to use `--release` option to speed up the computation.
 
 After generating the file, you can check the conjecture by running the shell script
-[count_FP2types.sh](./count_FP2types.sh).
+[count_Fp2types.sh](./count_Fp2types.sh).
 This script requires Magma.
 It takes a few days to check all files.
 
