@@ -1,7 +1,7 @@
 # Collision Search in LTZ Hash
 
 This project is a supporting code for the paper
-["A Memory-Efficient Collision Attack on LeGrow-Ti-Zobernig's Hash Function"](https://eprint.iacr.org/2025/***).
+["A collision attack on the LTZ hash function based on a conjecture on supersingular non-superspecial isogeny graphs of dimension 2"](https://eprint.iacr.org/2025/1776).
 This contains a code to confirm the conjecture in the paper and
 an implementation of the collision search algorithm proposed in the paper.
 
