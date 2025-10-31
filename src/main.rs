@@ -5,6 +5,7 @@ use std::time::{Duration, Instant};
 use LTZ_hash_collision::{
     counting_func::{handle_count_single, handle_count_all},
     collision_func::{handle_hash, handle_collision},
+    generic_attack::handle_generic_attack,
 };
 
 fn main() -> io::Result<()> {
@@ -45,6 +46,14 @@ fn main() -> io::Result<()> {
                 handle_collision(p);
             } else {
                 eprintln!("collision requires a prime argument");
+            }
+        }
+        "generic" => {
+            if args.len() >= 2 {
+                let p: u64 = args[1].parse().unwrap_or(0);
+                handle_generic_attack(p);
+            } else {
+                eprintln!("generic_attack requires a prime argument");
             }
         }
         _ => {

@@ -9,3 +9,4 @@ pub mod hash;
 pub mod collision;
 pub mod counting_func;
 pub mod collision_func;
+pub mod generic_attack;

@@ -13,8 +13,868 @@ pub fn handle_hash(p: u64, input: &str) {
         return;
     }
     match p {
+        7 => {
+            let res = LTZ_hash_auto!(7, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        13 => {
+            let res = LTZ_hash_auto!(13, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        17 => {
+            let res = LTZ_hash_auto!(17, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        23 => {
+            let res = LTZ_hash_auto!(23, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        37 => {
+            let res = LTZ_hash_auto!(37, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        43 => {
+            let res = LTZ_hash_auto!(43, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        47 => {
+            let res = LTZ_hash_auto!(47, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        53 => {
+            let res = LTZ_hash_auto!(53, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        67 => {
+            let res = LTZ_hash_auto!(67, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        73 => {
+            let res = LTZ_hash_auto!(73, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        83 => {
+            let res = LTZ_hash_auto!(83, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        97 => {
+            let res = LTZ_hash_auto!(97, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
         103 => {
             let res = LTZ_hash_auto!(103, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        107 => {
+            let res = LTZ_hash_auto!(107, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        113 => {
+            let res = LTZ_hash_auto!(113, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        127 => {
+            let res = LTZ_hash_auto!(127, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        137 => {
+            let res = LTZ_hash_auto!(137, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        157 => {
+            let res = LTZ_hash_auto!(157, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        163 => {
+            let res = LTZ_hash_auto!(163, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        167 => {
+            let res = LTZ_hash_auto!(167, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        173 => {
+            let res = LTZ_hash_auto!(173, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        193 => {
+            let res = LTZ_hash_auto!(193, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        197 => {
+            let res = LTZ_hash_auto!(197, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        223 => {
+            let res = LTZ_hash_auto!(223, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        227 => {
+            let res = LTZ_hash_auto!(227, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        233 => {
+            let res = LTZ_hash_auto!(233, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        257 => {
+            let res = LTZ_hash_auto!(257, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        263 => {
+            let res = LTZ_hash_auto!(263, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        277 => {
+            let res = LTZ_hash_auto!(277, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        283 => {
+            let res = LTZ_hash_auto!(283, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        293 => {
+            let res = LTZ_hash_auto!(293, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        307 => {
+            let res = LTZ_hash_auto!(307, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        313 => {
+            let res = LTZ_hash_auto!(313, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        317 => {
+            let res = LTZ_hash_auto!(317, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        337 => {
+            let res = LTZ_hash_auto!(337, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        347 => {
+            let res = LTZ_hash_auto!(347, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        353 => {
+            let res = LTZ_hash_auto!(353, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        367 => {
+            let res = LTZ_hash_auto!(367, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        373 => {
+            let res = LTZ_hash_auto!(373, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        383 => {
+            let res = LTZ_hash_auto!(383, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        397 => {
+            let res = LTZ_hash_auto!(397, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        433 => {
+            let res = LTZ_hash_auto!(433, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        443 => {
+            let res = LTZ_hash_auto!(443, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        457 => {
+            let res = LTZ_hash_auto!(457, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        463 => {
+            let res = LTZ_hash_auto!(463, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        467 => {
+            let res = LTZ_hash_auto!(467, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        487 => {
+            let res = LTZ_hash_auto!(487, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        503 => {
+            let res = LTZ_hash_auto!(503, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        523 => {
+            let res = LTZ_hash_auto!(523, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        547 => {
+            let res = LTZ_hash_auto!(547, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        557 => {
+            let res = LTZ_hash_auto!(557, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        563 => {
+            let res = LTZ_hash_auto!(563, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        577 => {
+            let res = LTZ_hash_auto!(577, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        587 => {
+            let res = LTZ_hash_auto!(587, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        593 => {
+            let res = LTZ_hash_auto!(593, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        607 => {
+            let res = LTZ_hash_auto!(607, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        613 => {
+            let res = LTZ_hash_auto!(613, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        617 => {
+            let res = LTZ_hash_auto!(617, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        643 => {
+            let res = LTZ_hash_auto!(643, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        647 => {
+            let res = LTZ_hash_auto!(647, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        653 => {
+            let res = LTZ_hash_auto!(653, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        673 => {
+            let res = LTZ_hash_auto!(673, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        677 => {
+            let res = LTZ_hash_auto!(677, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        683 => {
+            let res = LTZ_hash_auto!(683, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        727 => {
+            let res = LTZ_hash_auto!(727, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        733 => {
+            let res = LTZ_hash_auto!(733, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        743 => {
+            let res = LTZ_hash_auto!(743, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        757 => {
+            let res = LTZ_hash_auto!(757, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        773 => {
+            let res = LTZ_hash_auto!(773, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        787 => {
+            let res = LTZ_hash_auto!(787, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        797 => {
+            let res = LTZ_hash_auto!(797, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        823 => {
+            let res = LTZ_hash_auto!(823, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        827 => {
+            let res = LTZ_hash_auto!(827, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        853 => {
+            let res = LTZ_hash_auto!(853, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        857 => {
+            let res = LTZ_hash_auto!(857, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        863 => {
+            let res = LTZ_hash_auto!(863, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        877 => {
+            let res = LTZ_hash_auto!(877, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        883 => {
+            let res = LTZ_hash_auto!(883, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        887 => {
+            let res = LTZ_hash_auto!(887, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        907 => {
+            let res = LTZ_hash_auto!(907, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        937 => {
+            let res = LTZ_hash_auto!(937, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        947 => {
+            let res = LTZ_hash_auto!(947, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        953 => {
+            let res = LTZ_hash_auto!(953, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        967 => {
+            let res = LTZ_hash_auto!(967, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        977 => {
+            let res = LTZ_hash_auto!(977, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        983 => {
+            let res = LTZ_hash_auto!(983, input);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            println!("hash value is [{}, {}, {}]", res.0, res.1, res.2);
+        }
+        997 => {
+            let res = LTZ_hash_auto!(997, input);
             let d1 = find_non_residue(p);
             let d2 = find_non_residue_fp2(p, d1);
             println!(
@@ -1233,6 +2093,258 @@ pub fn handle_hash(p: u64, input: &str) {
 pub fn handle_collision(p: u64) {
     let start = Instant::now();
     match p {
+        7 => {
+            const DEPTH: usize = collision_depth(7);
+            let (m1, m2) = find_collision_auto!(7, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(7, &m1);
+            let h2 = LTZ_hash_auto!(7, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        13 => {
+            const DEPTH: usize = collision_depth(13);
+            let (m1, m2) = find_collision_auto!(13, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(13, &m1);
+            let h2 = LTZ_hash_auto!(13, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        17 => {
+            const DEPTH: usize = collision_depth(17);
+            let (m1, m2) = find_collision_auto!(17, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(17, &m1);
+            let h2 = LTZ_hash_auto!(17, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        23 => {
+            const DEPTH: usize = collision_depth(23);
+            let (m1, m2) = find_collision_auto!(23, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(23, &m1);
+            let h2 = LTZ_hash_auto!(23, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        37 => {
+            const DEPTH: usize = collision_depth(37);
+            let (m1, m2) = find_collision_auto!(37, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(37, &m1);
+            let h2 = LTZ_hash_auto!(37, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        43 => {
+            const DEPTH: usize = collision_depth(43);
+            let (m1, m2) = find_collision_auto!(43, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(43, &m1);
+            let h2 = LTZ_hash_auto!(43, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        47 => {
+            const DEPTH: usize = collision_depth(47);
+            let (m1, m2) = find_collision_auto!(47, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(47, &m1);
+            let h2 = LTZ_hash_auto!(47, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        53 => {
+            const DEPTH: usize = collision_depth(53);
+            let (m1, m2) = find_collision_auto!(53, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(53, &m1);
+            let h2 = LTZ_hash_auto!(53, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        67 => {
+            const DEPTH: usize = collision_depth(67);
+            let (m1, m2) = find_collision_auto!(67, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(67, &m1);
+            let h2 = LTZ_hash_auto!(67, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        73 => {
+            const DEPTH: usize = collision_depth(73);
+            let (m1, m2) = find_collision_auto!(73, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(73, &m1);
+            let h2 = LTZ_hash_auto!(73, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        83 => {
+            const DEPTH: usize = collision_depth(83);
+            let (m1, m2) = find_collision_auto!(83, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(83, &m1);
+            let h2 = LTZ_hash_auto!(83, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        97 => {
+            const DEPTH: usize = collision_depth(97);
+            let (m1, m2) = find_collision_auto!(97, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(97, &m1);
+            let h2 = LTZ_hash_auto!(97, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
         103 => {
             const DEPTH: usize = collision_depth(103);
             let (m1, m2) = find_collision_auto!(103, DEPTH);
@@ -1244,6 +2356,1560 @@ pub fn handle_collision(p: u64) {
             );
             let h1 = LTZ_hash_auto!(103, &m1);
             let h2 = LTZ_hash_auto!(103, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        107 => {
+            const DEPTH: usize = collision_depth(107);
+            let (m1, m2) = find_collision_auto!(107, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(107, &m1);
+            let h2 = LTZ_hash_auto!(107, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        113 => {
+            const DEPTH: usize = collision_depth(113);
+            let (m1, m2) = find_collision_auto!(113, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(113, &m1);
+            let h2 = LTZ_hash_auto!(113, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        127 => {
+            const DEPTH: usize = collision_depth(127);
+            let (m1, m2) = find_collision_auto!(127, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(127, &m1);
+            let h2 = LTZ_hash_auto!(127, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        137 => {
+            const DEPTH: usize = collision_depth(137);
+            let (m1, m2) = find_collision_auto!(137, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(137, &m1);
+            let h2 = LTZ_hash_auto!(137, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        157 => {
+            const DEPTH: usize = collision_depth(157);
+            let (m1, m2) = find_collision_auto!(157, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(157, &m1);
+            let h2 = LTZ_hash_auto!(157, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        163 => {
+            const DEPTH: usize = collision_depth(163);
+            let (m1, m2) = find_collision_auto!(163, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(163, &m1);
+            let h2 = LTZ_hash_auto!(163, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        167 => {
+            const DEPTH: usize = collision_depth(167);
+            let (m1, m2) = find_collision_auto!(167, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(167, &m1);
+            let h2 = LTZ_hash_auto!(167, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        173 => {
+            const DEPTH: usize = collision_depth(173);
+            let (m1, m2) = find_collision_auto!(173, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(173, &m1);
+            let h2 = LTZ_hash_auto!(173, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        193 => {
+            const DEPTH: usize = collision_depth(193);
+            let (m1, m2) = find_collision_auto!(193, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(193, &m1);
+            let h2 = LTZ_hash_auto!(193, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        197 => {
+            const DEPTH: usize = collision_depth(197);
+            let (m1, m2) = find_collision_auto!(197, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(197, &m1);
+            let h2 = LTZ_hash_auto!(197, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        223 => {
+            const DEPTH: usize = collision_depth(223);
+            let (m1, m2) = find_collision_auto!(223, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(223, &m1);
+            let h2 = LTZ_hash_auto!(223, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        227 => {
+            const DEPTH: usize = collision_depth(227);
+            let (m1, m2) = find_collision_auto!(227, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(227, &m1);
+            let h2 = LTZ_hash_auto!(227, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        233 => {
+            const DEPTH: usize = collision_depth(233);
+            let (m1, m2) = find_collision_auto!(233, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(233, &m1);
+            let h2 = LTZ_hash_auto!(233, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        257 => {
+            const DEPTH: usize = collision_depth(257);
+            let (m1, m2) = find_collision_auto!(257, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(257, &m1);
+            let h2 = LTZ_hash_auto!(257, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        263 => {
+            const DEPTH: usize = collision_depth(263);
+            let (m1, m2) = find_collision_auto!(263, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(263, &m1);
+            let h2 = LTZ_hash_auto!(263, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        277 => {
+            const DEPTH: usize = collision_depth(277);
+            let (m1, m2) = find_collision_auto!(277, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(277, &m1);
+            let h2 = LTZ_hash_auto!(277, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        283 => {
+            const DEPTH: usize = collision_depth(283);
+            let (m1, m2) = find_collision_auto!(283, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(283, &m1);
+            let h2 = LTZ_hash_auto!(283, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        293 => {
+            const DEPTH: usize = collision_depth(293);
+            let (m1, m2) = find_collision_auto!(293, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(293, &m1);
+            let h2 = LTZ_hash_auto!(293, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        307 => {
+            const DEPTH: usize = collision_depth(307);
+            let (m1, m2) = find_collision_auto!(307, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(307, &m1);
+            let h2 = LTZ_hash_auto!(307, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        313 => {
+            const DEPTH: usize = collision_depth(313);
+            let (m1, m2) = find_collision_auto!(313, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(313, &m1);
+            let h2 = LTZ_hash_auto!(313, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        317 => {
+            const DEPTH: usize = collision_depth(317);
+            let (m1, m2) = find_collision_auto!(317, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(317, &m1);
+            let h2 = LTZ_hash_auto!(317, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        337 => {
+            const DEPTH: usize = collision_depth(337);
+            let (m1, m2) = find_collision_auto!(337, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(337, &m1);
+            let h2 = LTZ_hash_auto!(337, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        347 => {
+            const DEPTH: usize = collision_depth(347);
+            let (m1, m2) = find_collision_auto!(347, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(347, &m1);
+            let h2 = LTZ_hash_auto!(347, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        353 => {
+            const DEPTH: usize = collision_depth(353);
+            let (m1, m2) = find_collision_auto!(353, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(353, &m1);
+            let h2 = LTZ_hash_auto!(353, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        367 => {
+            const DEPTH: usize = collision_depth(367);
+            let (m1, m2) = find_collision_auto!(367, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(367, &m1);
+            let h2 = LTZ_hash_auto!(367, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        373 => {
+            const DEPTH: usize = collision_depth(373);
+            let (m1, m2) = find_collision_auto!(373, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(373, &m1);
+            let h2 = LTZ_hash_auto!(373, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        383 => {
+            const DEPTH: usize = collision_depth(383);
+            let (m1, m2) = find_collision_auto!(383, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(383, &m1);
+            let h2 = LTZ_hash_auto!(383, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        397 => {
+            const DEPTH: usize = collision_depth(397);
+            let (m1, m2) = find_collision_auto!(397, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(397, &m1);
+            let h2 = LTZ_hash_auto!(397, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        433 => {
+            const DEPTH: usize = collision_depth(433);
+            let (m1, m2) = find_collision_auto!(433, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(433, &m1);
+            let h2 = LTZ_hash_auto!(433, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        443 => {
+            const DEPTH: usize = collision_depth(443);
+            let (m1, m2) = find_collision_auto!(443, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(443, &m1);
+            let h2 = LTZ_hash_auto!(443, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        457 => {
+            const DEPTH: usize = collision_depth(457);
+            let (m1, m2) = find_collision_auto!(457, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(457, &m1);
+            let h2 = LTZ_hash_auto!(457, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        463 => {
+            const DEPTH: usize = collision_depth(463);
+            let (m1, m2) = find_collision_auto!(463, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(463, &m1);
+            let h2 = LTZ_hash_auto!(463, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        467 => {
+            const DEPTH: usize = collision_depth(467);
+            let (m1, m2) = find_collision_auto!(467, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(467, &m1);
+            let h2 = LTZ_hash_auto!(467, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        487 => {
+            const DEPTH: usize = collision_depth(487);
+            let (m1, m2) = find_collision_auto!(487, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(487, &m1);
+            let h2 = LTZ_hash_auto!(487, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        503 => {
+            const DEPTH: usize = collision_depth(503);
+            let (m1, m2) = find_collision_auto!(503, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(503, &m1);
+            let h2 = LTZ_hash_auto!(503, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        523 => {
+            const DEPTH: usize = collision_depth(523);
+            let (m1, m2) = find_collision_auto!(523, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(523, &m1);
+            let h2 = LTZ_hash_auto!(523, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        547 => {
+            const DEPTH: usize = collision_depth(547);
+            let (m1, m2) = find_collision_auto!(547, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(547, &m1);
+            let h2 = LTZ_hash_auto!(547, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        557 => {
+            const DEPTH: usize = collision_depth(557);
+            let (m1, m2) = find_collision_auto!(557, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(557, &m1);
+            let h2 = LTZ_hash_auto!(557, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        563 => {
+            const DEPTH: usize = collision_depth(563);
+            let (m1, m2) = find_collision_auto!(563, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(563, &m1);
+            let h2 = LTZ_hash_auto!(563, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        577 => {
+            const DEPTH: usize = collision_depth(577);
+            let (m1, m2) = find_collision_auto!(577, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(577, &m1);
+            let h2 = LTZ_hash_auto!(577, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        587 => {
+            const DEPTH: usize = collision_depth(587);
+            let (m1, m2) = find_collision_auto!(587, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(587, &m1);
+            let h2 = LTZ_hash_auto!(587, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        593 => {
+            const DEPTH: usize = collision_depth(593);
+            let (m1, m2) = find_collision_auto!(593, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(593, &m1);
+            let h2 = LTZ_hash_auto!(593, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        607 => {
+            const DEPTH: usize = collision_depth(607);
+            let (m1, m2) = find_collision_auto!(607, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(607, &m1);
+            let h2 = LTZ_hash_auto!(607, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        613 => {
+            const DEPTH: usize = collision_depth(613);
+            let (m1, m2) = find_collision_auto!(613, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(613, &m1);
+            let h2 = LTZ_hash_auto!(613, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        617 => {
+            const DEPTH: usize = collision_depth(617);
+            let (m1, m2) = find_collision_auto!(617, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(617, &m1);
+            let h2 = LTZ_hash_auto!(617, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        643 => {
+            const DEPTH: usize = collision_depth(643);
+            let (m1, m2) = find_collision_auto!(643, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(643, &m1);
+            let h2 = LTZ_hash_auto!(643, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        647 => {
+            const DEPTH: usize = collision_depth(647);
+            let (m1, m2) = find_collision_auto!(647, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(647, &m1);
+            let h2 = LTZ_hash_auto!(647, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        653 => {
+            const DEPTH: usize = collision_depth(653);
+            let (m1, m2) = find_collision_auto!(653, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(653, &m1);
+            let h2 = LTZ_hash_auto!(653, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        673 => {
+            const DEPTH: usize = collision_depth(673);
+            let (m1, m2) = find_collision_auto!(673, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(673, &m1);
+            let h2 = LTZ_hash_auto!(673, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        677 => {
+            const DEPTH: usize = collision_depth(677);
+            let (m1, m2) = find_collision_auto!(677, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(677, &m1);
+            let h2 = LTZ_hash_auto!(677, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        683 => {
+            const DEPTH: usize = collision_depth(683);
+            let (m1, m2) = find_collision_auto!(683, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(683, &m1);
+            let h2 = LTZ_hash_auto!(683, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        727 => {
+            const DEPTH: usize = collision_depth(727);
+            let (m1, m2) = find_collision_auto!(727, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(727, &m1);
+            let h2 = LTZ_hash_auto!(727, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        733 => {
+            const DEPTH: usize = collision_depth(733);
+            let (m1, m2) = find_collision_auto!(733, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(733, &m1);
+            let h2 = LTZ_hash_auto!(733, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        743 => {
+            const DEPTH: usize = collision_depth(743);
+            let (m1, m2) = find_collision_auto!(743, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(743, &m1);
+            let h2 = LTZ_hash_auto!(743, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        757 => {
+            const DEPTH: usize = collision_depth(757);
+            let (m1, m2) = find_collision_auto!(757, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(757, &m1);
+            let h2 = LTZ_hash_auto!(757, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        773 => {
+            const DEPTH: usize = collision_depth(773);
+            let (m1, m2) = find_collision_auto!(773, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(773, &m1);
+            let h2 = LTZ_hash_auto!(773, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        787 => {
+            const DEPTH: usize = collision_depth(787);
+            let (m1, m2) = find_collision_auto!(787, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(787, &m1);
+            let h2 = LTZ_hash_auto!(787, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        797 => {
+            const DEPTH: usize = collision_depth(797);
+            let (m1, m2) = find_collision_auto!(797, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(797, &m1);
+            let h2 = LTZ_hash_auto!(797, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        823 => {
+            const DEPTH: usize = collision_depth(823);
+            let (m1, m2) = find_collision_auto!(823, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(823, &m1);
+            let h2 = LTZ_hash_auto!(823, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        827 => {
+            const DEPTH: usize = collision_depth(827);
+            let (m1, m2) = find_collision_auto!(827, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(827, &m1);
+            let h2 = LTZ_hash_auto!(827, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        853 => {
+            const DEPTH: usize = collision_depth(853);
+            let (m1, m2) = find_collision_auto!(853, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(853, &m1);
+            let h2 = LTZ_hash_auto!(853, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        857 => {
+            const DEPTH: usize = collision_depth(857);
+            let (m1, m2) = find_collision_auto!(857, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(857, &m1);
+            let h2 = LTZ_hash_auto!(857, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        863 => {
+            const DEPTH: usize = collision_depth(863);
+            let (m1, m2) = find_collision_auto!(863, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(863, &m1);
+            let h2 = LTZ_hash_auto!(863, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        877 => {
+            const DEPTH: usize = collision_depth(877);
+            let (m1, m2) = find_collision_auto!(877, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(877, &m1);
+            let h2 = LTZ_hash_auto!(877, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        883 => {
+            const DEPTH: usize = collision_depth(883);
+            let (m1, m2) = find_collision_auto!(883, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(883, &m1);
+            let h2 = LTZ_hash_auto!(883, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        887 => {
+            const DEPTH: usize = collision_depth(887);
+            let (m1, m2) = find_collision_auto!(887, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(887, &m1);
+            let h2 = LTZ_hash_auto!(887, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        907 => {
+            const DEPTH: usize = collision_depth(907);
+            let (m1, m2) = find_collision_auto!(907, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(907, &m1);
+            let h2 = LTZ_hash_auto!(907, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        937 => {
+            const DEPTH: usize = collision_depth(937);
+            let (m1, m2) = find_collision_auto!(937, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(937, &m1);
+            let h2 = LTZ_hash_auto!(937, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        947 => {
+            const DEPTH: usize = collision_depth(947);
+            let (m1, m2) = find_collision_auto!(947, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(947, &m1);
+            let h2 = LTZ_hash_auto!(947, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        953 => {
+            const DEPTH: usize = collision_depth(953);
+            let (m1, m2) = find_collision_auto!(953, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(953, &m1);
+            let h2 = LTZ_hash_auto!(953, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        967 => {
+            const DEPTH: usize = collision_depth(967);
+            let (m1, m2) = find_collision_auto!(967, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(967, &m1);
+            let h2 = LTZ_hash_auto!(967, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        977 => {
+            const DEPTH: usize = collision_depth(977);
+            let (m1, m2) = find_collision_auto!(977, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(977, &m1);
+            let h2 = LTZ_hash_auto!(977, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        983 => {
+            const DEPTH: usize = collision_depth(983);
+            let (m1, m2) = find_collision_auto!(983, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(983, &m1);
+            let h2 = LTZ_hash_auto!(983, &m2);
+            if h1 == h2 {
+                println!("collision found: 0o{} and 0o{}", m1, m2);
+                println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
+            } else {
+                println!(
+                    "hash values do not match: [{}, {}, {}] != [{}, {}, {}]",
+                    h1.0, h1.1, h1.2, h2.0, h2.1, h2.2
+                );
+            }
+        }
+        997 => {
+            const DEPTH: usize = collision_depth(997);
+            let (m1, m2) = find_collision_auto!(997, DEPTH);
+            let d1 = find_non_residue(p);
+            let d2 = find_non_residue_fp2(p, d1);
+            println!(
+                "p = {}, Fp4 = Fp[x, y], where x^2 = {}, y^2 = {} + {}*x",
+                p, d1, d2.c0, d2.c1
+            );
+            let h1 = LTZ_hash_auto!(997, &m1);
+            let h2 = LTZ_hash_auto!(997, &m2);
             if h1 == h2 {
                 println!("collision found: 0o{} and 0o{}", m1, m2);
                 println!("The hash values are [{}, {}, {}]", h1.0, h1.1, h1.2);
